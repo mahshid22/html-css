@@ -11,7 +11,7 @@
   background: url(../images/banner.jpg) no-repeat;
   background-size: cover;
   color: aliceblue;
-  padding: 3em 0;
+  padding: 1em 0;
 }
 
 h1 {
@@ -32,8 +32,11 @@ p {
   line-height: 1.75em;
 }
 img {
-  width: 100%;
+  width: 40%;
   max-width: 100%;
+  border-radius: 50%;
+  border: 12px #acac9d solid;
+  margin-bottom: 1em;
 }
 span {
   font-size: 1.4rem;
@@ -86,76 +89,55 @@ nav a:focus {
   flex-direction: column;
 }
 
-.blog_main {
-  margin-bottom: 2em;
-}
-
-.post_span {
-  margin-bottom: 2em;
-}
-
-.post_img {
-  margin-bottom: 2em;
-}
-
-.post_link {
-  color: #272727;
-}
-.post_link:hover,
-.post_link:focus {
-  text-decoration: none;
-}
-
-.blog_post_info {
-  color: #a2a2a2;
-  font-size: 0.7em;
-  margin-bottom: 2em;
-}
-
-.blog_side_post {
+.personal_info,
+.personal_info_email_tel,
+.personal_info_email_tel_1,
+.personal_info_email_tel_2,
+.personal_info_email_profile {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1em;
 }
 
-.blog_side img {
-  max-width: 28%;
-  float: left;
-  margin-right: 1em;
-  margin-top: 0.4em;
+.personal_info_email_tel_1 p {
+  color: #acac9d;
 }
 
-.blog_side li {
-  margin-bottom: 2em;
-  padding-bottom: 2em;
-  border-bottom: 1px #e7e2e2 solid;
-  list-style: none;
-}
-
-.blog_side li:last-child {
-  border: none;
-}
-
-.featured {
-  background-color: #f2f2f2;
-  padding-top: 4em;
-}
-
-.featured_post img,
-.featured_post p {
-  margin-bottom: 2em;
-}
-
-.button {
-  display: block;
+.personal_info_email_tel_2 p {
+  color: #d90d5b;
+  font-size: 0.8em;
   text-align: center;
+  margin-bottom: 0.1em;
+}
+.personal_info_email_profile p {
   width: 100%;
-  background-color: chocolate;
-  border: 1px chocolate solid;
-  border-radius: 40px;
-  padding: 1em 2em;
-  color: #fff;
-  text-decoration: none;
 }
 
+.Employment,
+.Skills,
+.Education {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4em;
+}
+
+.title {
+  color: #0092c4;
+  font-size: 2em;
+}
+
+.job_title,
+.education_title {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.education_date,
+.job_date {
+  color: #d90d5b;
+  font-size: 0.7em;
+}
 .footer {
   background-color: #1d1d1d;
   padding-top: 4em;
@@ -211,7 +193,7 @@ nav a:focus {
     margin-bottom: 0.5em;
   }
   .blog_header {
-    padding: 11em 0;
+    padding: 2em 0;
   }
   nav ul {
     flex-direction: row;
@@ -232,35 +214,9 @@ nav a:focus {
     color: #fff;
   }
 
-  .blog_row {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .blog_main {
-    width: 70%;
-  }
-
-  .blog_side {
-    width: 25%;
-    padding: 0.5em;
-  }
-
-  .featured_post {
-    width: 30%;
-  }
-
-  .button {
-    width: 60%;
-  }
-
   .footer {
     display: flex;
     flex-direction: row;
-  }
-  .footer .blog_row {
-    flex-direction: row;
-    justify-content: space-between;
   }
 
   .footer_row {
