@@ -245,4 +245,25 @@ nav a:focus {
     width: 25%;
     padding: 0.5em;
   }
+
+  .featured_post {
+    width: 30%;
+  }
+
+  .button {
+    width: 60%;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+  }
+  .footer .blog_row {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer_row {
+    width: 27%;
+  }
 }
