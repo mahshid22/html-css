@@ -117,7 +117,7 @@ nav a:focus {
 }
 
 .blog_side img {
-  max-width: 28%;
+  max-width: 90px;
   float: left;
   margin-right: 1em;
   margin-top: 0.4em;
