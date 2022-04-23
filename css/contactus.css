@@ -123,7 +123,7 @@ nav a:focus {
 }
 .contact-us-form-right textarea {
   width: 100%;
-  min-height: 221px;
+  min-height: 294px;
   font-size: 1em;
   padding: 1em;
   padding-left: 3em;
@@ -154,6 +154,9 @@ nav a:focus {
 }
 .contact-us-browser-label {
   background: url(../images/icons/web-design.png) left top no-repeat;
+}
+.contact-us-search-label {
+  background: url(../images/icons/R.png) left top no-repeat;
 }
 .contact-us-email-label {
   background: url(../images/icons/contact-email.png) left top no-repeat;
