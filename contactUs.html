@@ -39,7 +39,8 @@
                     <div class="contact-us-form-left">
                         <div class="contact-us-input-container">
                             <label for="contact-us-name" class="contact-us-name-label"></label>
-                            <input type="text" id="contact-us-name" name="contact-us-name" placeholder="Name...">
+                            <input type="text" id="contact-us-name" name="contact-us-name" placeholder="Name..."
+                                autofocus required>
                         </div>
                         <div class="contact-us-input-container">
                             <label for="contact-us-email" class="contact-us-email-label"></label>
@@ -48,6 +49,17 @@
                         <div class="contact-us-input-container">
                             <label for="contact-us-phone" class="contact-us-phone-label"></label>
                             <input type="text" id="contact-us-phone" name="contact-us-phone" placeholder="Phone...">
+                        </div>
+                        <div class="contact-us-input-container">
+                            <label for="browser" class="contact-us-browser-label"></label>
+                            <input list="browsers" name="browser" id="browser" placeholder="chose your browser...">
+                            <datalist id="browsers">
+                                <option value="Edge">
+                                <option value="Firefox">
+                                <option value="Chrome">
+                                <option value="Opera">
+                                <option value="Safari">
+                            </datalist>
                         </div>
                     </div>
                     <div class="contact-us-form-right">

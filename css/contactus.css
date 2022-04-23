@@ -152,6 +152,9 @@ nav a:focus {
 .contact-us-phone-label {
   background: url(../images/icons/contact-phone.png) left top no-repeat;
 }
+.contact-us-browser-label {
+  background: url(../images/icons/web-design.png) left top no-repeat;
+}
 .contact-us-email-label {
   background: url(../images/icons/contact-email.png) left top no-repeat;
 }
