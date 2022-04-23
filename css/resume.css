@@ -151,11 +151,10 @@ nav a:focus {
 
 .Skills_list {
   display: flex;
+  flex-direction: column;
   width: 100%;
 }
-.Skills_list ul {
-  width: 40%;
-}
+
 .footer {
   background-color: #1d1d1d;
   padding-top: 4em;
@@ -232,6 +231,14 @@ nav a:focus {
     color: #fff;
   }
 
+  .Skills_list {
+    flex-direction: row;
+  }
+
+  .Skills_list ul {
+    width: 40%;
+    padding: 1em;
+  }
   .footer {
     display: flex;
     flex-direction: row;
